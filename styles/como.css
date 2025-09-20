@@ -1,0 +1,60 @@
+* {xoutline: 1px solid gray}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section > h1 {color: darkblue}
+section > h2 {
+    font-size: 18px;
+    text-align: justify;
+
+    padding: 0;
+    margin: 0 5vw;
+}
+section > h3 {
+    color: darkblue;
+    text-align: center;
+
+    margin: 0 3vw 30px 3vw;
+}
+
+.mapas {
+    width: 80vw;
+
+    display: flex;
+    margin: 30px 3vw;
+}
+.mapas iframe {
+    width: 60vw;
+    height: 60vw;
+
+    border: 2px solid black;
+}
+
+.qrcode {
+    width: 20vw;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.qrcode img {width: 15vw; height: 15vw}
+.qrcode > h1 {
+    font-size: 14px;
+    color:  darkblue;
+    text-align: center;
+
+    margin: 5vh 2vw;
+}
+
+section > h3, .qrcode > h1, section h2 {border-radius: 10%; background-color: #e8f5fd}
+
+@media only screen and (max-width: 768px){
+
+.mapas {align-items: center; flex-direction: column}
+.mapas iframe {width: 80vw; height: 80vw}
+.qrcode {display: none}
+section h2 {font-size: 14px}
+}

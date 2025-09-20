@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Observação: NUNCA repetir o nome de um item! Utilize underline para simular espaços -->
+<!-- Para ocultar a ultima imagem apenas defina ela como '0'  -->
+
+
+<produtos>
+
+    <Destaques>
+        <destaque_1> soldador_350w </destaque_1>
+        <destaque_2> h61m-s2ph </destaque_2>
+        <destaque_3> G1610 </destaque_3>
+        <destaque_4> HD322HJ </destaque_4>
+        <destaque_5> WD5000AZLX </destaque_5>
+        <destaque_6> STL500LM012 </destaque_6>
+    </Destaques>
+
+    <Soldadores>
+        <soldador_350w>
+            <titulo> Soldador 350w </titulo>
+            <sumario> Produto de alto rendimento, destinado à pequenas e médias tarefas. </sumario>
+            <estoque> 0 </estoque>
+            <de> 0 </de>
+            <preco> 60,00 </preco>
+            <estado> novo </estado>
+            <garantia> 36 </garantia>
+
+            <info>
+                Nosso soldador dispensa aquecimento prévio, para utilizar basta pressionar o gatilho. Além de ser muito mais prático, o gasto com energia é muito menor. Além do mais, nosso produto é feito majoritáriamente de materiais reaproveitados, o que condiz com a nossa missão em colaborar com o meio ambiente.
+            </info>
+
+            <especs>
+                <spec> Potência: 350 watts </spec>
+                <spec> Tensão: 220 volts </spec>
+                <spec> Peso: ~2kg </spec>
+                <spec> Tamanho do rabixo: ~1.7 metros </spec>
+            </especs>
+
+            <imagens>
+                <imagem> https://i.imgur.com/0MESUFu.png </imagem>
+                <imagem> https://i.imgur.com/0MESUFu.png </imagem>
+                <imagem> 0 </imagem>
+            </imagens>
+
+            <anuncios>
+                <anuncio_principal> h61m-s2ph </anuncio_principal>
+                <anuncio_secundario> HD322HJ </anuncio_secundario>
+                <anuncio_terciario> WD5000AZLX </anuncio_terciario>
+            </anuncios>
+        </soldador_350w>
+    </Soldadores>
+
+    <Computadores>
+        <h61m-s2ph>
+            <titulo> Kit Gigabyte H61M-S2PH 2.0 GHz, 2gb DDR3</titulo>
+            <sumario> Placa mãe incluindo processador G470 e 2gb de memória RAM DDR3. </sumario>
+            <estoque> 1 </estoque>
+            <de> 0 </de>
+            <preco> 300,00 </preco>
+            <estado> usado </estado>
+            <garantia> 6 </garantia>
+
+            <info>
+                Computador modesto, ideal para navegação na internet e tarefas simples. Acompanha cooler.
+            </info>
+
+            <especs>
+                <spec> Motherboard </spec>
+                <spec> Marca: Gigabyte </spec>
+                <spec> Modelo: H61m-S2PH </spec>
+                <spec> Socket: LGA 1155 </spec>
+                <spec> ---------- </spec>
+                <spec> Processador </spec>
+                <spec> Marca: Intel </spec>
+                <spec> Modelo: G470 </spec>
+                <spec> Frequência: 2.00 GHz </spec>
+                <spec> Cache: 1.5 MB SmartCache </spec>
+                <spec> Potência Média: 35W </spec>
+                <spec> ---------- </spec>
+                <spec> Memória </spec>
+                <spec> Marca: Kingston </spec>
+                <spec> Modelo: KVR1333D3N9/2G </spec>
+                <spec> Tecnologia: DDR 3 </spec>
+                <spec> Frequência: 1333Mhz </spec>
+                <spec> Capacidade: 2GB </spec>
+                <spec> Tensão: 1.5V </spec>
+
+            </especs>
+
+            <imagens>
+                <imagem> https://1.imgur.com/3zhzQXe.png </imagem>
+                <imagem> https://i.imgur.com/WYZCAJi.png </imagem>
+                <imagem> 0 </imagem>
+            </imagens>
+
+            <anuncios>
+                <anuncio_principal> G1610 </anuncio_principal>
+                <anuncio_secundario> HD322HJ </anuncio_secundario>
+                <anuncio_terciario> WD5000AZLX  </anuncio_terciario>
+            </anuncios>
+        </h61m-s2ph>
+    </Computadores>
+
+    <Processadores>
+        <G1610>
+            <titulo> CPU Intel Celeron G1610 2.60 GHz </titulo>
+            <sumario> Processador de alta tecnologia fabricado pela Intel para os sockets LGA 1155. </sumario>
+            <estoque> 1 </estoque>
+            <de> 0 </de>
+            <preco> 100,00 </preco>
+            <estado> usado </estado>
+            <garantia> 6 </garantia>
+
+            <info>
+                CPU de alta performance fabricada para a tecnologia LGA 1155. Com 2mb de cache, o processador conta com dois núcleos, cada um com duas threads.
+            </info>
+
+            <especs>
+                <spec> Marca: Intel </spec>
+                <spec> Modelo: G1610 </spec>
+                <spec> Socket: LGA 1155 </spec>
+                <spec> Frequência: 2.6 GHz </spec>
+                <spec> Cache: 2 MB SmartCache </spec>
+                <spec> Potência: 55 W </spec>
+            </especs>
+
+            <imagens>
+                <imagem> https://i.imgur.com/yx1vidY.png </imagem>
+                <imagem> https://1.imgur.com/snRphSJ.png </imagem>
+                <imagem> 0 </imagem>
+            </imagens>
+
+            <anuncios>
+                <anuncio_principal> h61m-s2ph </anuncio_principal>
+                <anuncio_secundario> HD322HJ </anuncio_secundario>
+                <anuncio_terciario> WD5000AZLX </anuncio_terciario>
+            </anuncios>
+        </G1610>
+    </Processadores>
+
+    <Hard_Disks>
+        <HD322HJ>
+            <titulo> HD SATA 320GB Samsung HD322HJ </titulo>
+            <sumario> Disco rígido de média capacidade fabricado pela Samsung. </sumario>
+            <estoque> 1 </estoque>
+            <de> 120,00 </de>
+            <preco> 100,00 </preco>
+            <estado> usado </estado>
+            <garantia> 3 </garantia>
+
+            <info>
+                Disco rígido testado e em perfeito estado, com nenhum cluster danificado ou qualquer outra avaria.
+            </info>
+
+            <especs>
+                <spec> Marca: Samsung </spec>
+                <spec> Modelo: HD322HJ </spec>
+                <spec> Capacidade: 320GB </spec>
+                <spec> Bytes por setor: 512bytes </spec>
+                <spec> Velocidade de rotação: 7200RPM </spec>
+                <spec> Tempo médio de busca: 8.9ms </spec>
+                <spec> Latência: 4.17ms </spec>
+                <spec> Taxa de Transferência de Mídia (Máx.): 175MB/s </spec>
+                <spec> Taxa de Transferência de Interface (Máx.): 300MB/s </spec>
+                <spec> Temperatura em operação: de 5 a 55ºC </spec>
+                <spec> Nível de ruído: 2.8 Bel  </spec>
+                <spec> Nível de ruído em idle: 2.7 Bel </spec>
+                <spec> Consumo: 10.5 W </spec>
+                <spec> Dimensões: 26.1 x 101.5 x 147mm </spec>
+                <spec> Peso: 470g </spec>
+
+            </especs>
+
+            <imagens>
+                <imagem> https://i.imgur.com/C1EMPRQ.png </imagem>
+                <imagem> https://i.imgur.com/FAWIQpg.png </imagem>
+                <imagem> 0 </imagem>
+            </imagens>
+
+            <anuncios>
+                <anuncio_principal> h61m-s2ph </anuncio_principal>
+                <anuncio_secundario> HD322HJ </anuncio_secundario>
+                <anuncio_terciario> STL500LM012 </anuncio_terciario>
+            </anuncios>
+        </HD322HJ>
+
+        <WD5000AZLX>
+            <titulo> HD SATA 500GB Western Digital WD5000AZLX </titulo>
+            <sumario> Disco rígido de grande capacidade fabricado pela Western Digital. </sumario>
+            <estoque> 1 </estoque>
+            <de> 170,00 </de>
+            <preco> 150,00 </preco>
+            <estado> usado </estado>
+            <garantia> 3 </garantia>
+
+            <info>
+                Disco rígido testado e em perfeito estado, com nenhum cluster danificado ou qualquer outra avaria.
+            </info>
+
+            <especs>
+                <spec> Marca: Western Digital </spec>
+                <spec> Modelo: WD5000AZLX </spec>
+                <spec> Capacidade: 500GB </spec>
+                <spec> Tamanho do buffer: 32 MB </spec>
+                <spec> Velocidade de rotação: 7200RPM </spec>
+                <spec> Dimensões: 26.1 x 101.6 x 147mm </spec>
+            </especs>
+
+            <imagens>
+                <imagem> https://i.imgur.com/bQVEkpf.png </imagem>
+                <imagem> https://i.imgur.com/AaSXqIX.png </imagem>
+                <imagem> 0 </imagem>
+            </imagens>
+
+            <anuncios>
+                <anuncio_principal> h61m-s2ph </anuncio_principal>
+                <anuncio_secundario> HD322HJ </anuncio_secundario>
+                <anuncio_terciario> STL500LM012 </anuncio_terciario>
+            </anuncios>
+        </WD5000AZLX>
+
+        <STL500LM012>
+            <titulo> HD SATA 500GB Samsung ST500LM012 </titulo>
+            <sumario> Disco rígido de grande capacidade fabricado pela Seagate. </sumario>
+            <estoque> 1 </estoque>
+            <de> 120,00 </de>
+            <preco> 100,00 </preco>
+            <estado> usado </estado>
+            <garantia> 3 </garantia>
+
+            <info>
+                Disco rígido testado e em perfeito estado, com nenhum cluster danificado ou qualquer outra avaria. Perfeito para utilizar como um pendrive de alta capacidade.
+            </info>
+
+            <especs>
+                <spec> Marca: Samsung </spec>
+                <spec> Fabricante: HD322HJ </spec>
+                <spec> Modelo: ST500LM012 </spec>
+                <spec> Capacidade: 500GB </spec>
+                <spec> Bytes por setor: 512bytes </spec>
+                <spec> Velocidade de rotação: 5400RPM </spec>
+                <spec> Tempo médio de busca: 12ms </spec>
+                <spec> Latência: 5.6ms </spec>
+                <spec> Dimensões: 10 x 7 x 0.9cm </spec>
+                <spec> Peso: 105g </spec>
+
+            </especs>
+
+            <imagens>
+                <imagem> https://i.imgur.com/suz21OJ.png </imagem>
+                <imagem> https://i.imgur.com/xo0r1OE.png </imagem>
+                <imagem> 0 </imagem>
+            </imagens>
+
+            <anuncios>
+                <anuncio_principal> h61m-s2ph </anuncio_principal>
+                <anuncio_secundario> HD322HJ </anuncio_secundario>
+                <anuncio_terciario> WD5000AZLX </anuncio_terciario>
+            </anuncios>
+        </STL500LM012>
+    </Hard_Disks>
+
+</produtos>
+

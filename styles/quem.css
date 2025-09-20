@@ -1,0 +1,74 @@
+* {xoutline: 1px solid gray}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+section h1 {color: darkblue}
+section > h2 {
+    font-size: 18px;
+    text-align: center;
+
+    margin: 10px 4vw;
+    background-color: #e8f5fd;
+}
+
+.photo {
+    width: 75vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin: 30px 2vw;
+}
+.photo > img {
+    width: 320px;
+    height: 320px;
+
+    padding: 10px 2vw;
+}
+
+.dados {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 30vw;
+
+    padding: 10px 2vw;
+    border-radius: 20px;
+    background-color: #b1d6ff;
+}
+.dados h4 {
+    font-size: 14px;
+    text-shadow: 1px 1px white;
+}
+.dados p {
+    text-align: justify;
+    text-shadow: 1px 1px white;
+}
+
+.tel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tel img {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.tel > h4 {text-shadow: 1px 1px white}
+
+@media only screen and (max-width: 768px){
+
+section > h2 {font-size: 14px;}
+.inverter {flex-direction: column-reverse}
+.photo {flex-wrap: wrap; align-items: center}
+.photo > img {width: 50vw; height: 50vw}
+
+.dados {width: 70vw; max-width: none}
+}

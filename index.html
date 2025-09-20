@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:image" content="sprites/logo.png"/>
+    <meta property="og:title" content="Eletrônica Schossler" />
+    <meta property="og:description" content="Venha conferir nossos produtos" />
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/home.css">
+
+    <script src="scripts/home.js"></script>
+    <title> Eletrônica Schossler </title>
+</head>
+<body>
+    <header>
+        <a href="." title="Home Page" style="border-radius: 100%"><img src="sprites/logo.png" style="width:inherit; height:inherit; min-height:inherit; min-width: inherit; border-radius: inherit"></a>
+
+        <div class="pesquisa">
+            <input type="text" id="texto" placeholder="Pesquise em nossa loja">
+            <button id="botao" title="Procurar" style="cursor: pointer"> <img class="button_icons" src="sprites/lupa.png"> </button>
+            <div class="sugestao_pesquisa" style="list-style: none"> </div>
+        </div>
+
+        <div class="info">
+            <a href="quem" style="grid-column: 1 / 2" title="Saiba mais sobre a gente"> <p style="margin-right: 2px" class="info_button"> Quem Somos </p> </a>
+            <a href="como" style="grid-column: 2 / 3" title="Veja como chegar à nossa loja"> <p class="info_button"> Como Chegar </p> </a>
+            <p class="info_dados" style="grid-column: 2 / 3" title="Gabriel"> (51) 99184-4178 </p>
+            <p class="info_dados" style="grid-column: 2 / 3" title="Elton"> (51) 99886-6313 </p>
+            <p class="info_dados" style="grid-column: 1 / 3" title="Nosso e-mail"> eletronicaschossler@gmail.com </p>
+            <div class="icons">
+                <img src="sprites/whatsapp.png" title="Contate-nos pelo whatsapp">
+                <a href="https://www.facebook.com/eletronicaschossler" title="Nossa página no facebook" target="_blank" style="margin-right: 5px"><img src="sprites/facebook.png"></a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="menu Stretch">
+            <h1 style="margin-right: 1vw; margin-left: 1vw"> Categorias </h1>
+        </div>
+
+        <div id="exibir" class="exibir">
+
+            <h1 id="selecionado"> Destaques </h1>
+
+            <div id="galeria" class="galeria">
+                <img id="botao_voltar" onclick="trocador(-1)" src="sprites/seta.png" class="setas" style="transform: rotateZ(180deg)" >
+
+                <div class="galeria_posicionar">
+                <img id="imagem_destacada" class="imagem_destacada" src="#">
+                <div id="legenda_imagem" class="legenda_imagem fadeOut">
+                    <h1 id="destaque_titulo" style="text-align: center"> Título </h1>
+                    <h3 id="destaque_descricao" style="text-align: justify"> Descrição do produto </h3>
+                    <h2 id="destaque_preco_de" style="color: red; margin-bottom: 0"> De R$ <span id="destaque_preco_de_2" style="text-decoration: line-through"> valor </span> por: </h2>
+                    <h2 id="destaque_preco_por" style="color: greenyellow; margin-top: 0"> R$ <span id="destaque_preco_por_2"> valor </span> </h2>
+                </div>
+                </div>
+
+               <img id="botao_seguir" onclick="trocador(1)" src="sprites/seta.png" class="setas" >
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_dados">
+            <p> Rua São Paulo nº 172, Bairro São Cristóvão, <nobr>Lajeado - RS. CEP: 95900-000</nobr> </p>
+            <p> e-mail: eletronicaschossler@gmail.com - <nobr><span title="Gabriel">(51) 99184-4178 </span> / <span title="Elton"> (51) 99886-6313</span></nobr></p>
+        </div>
+
+        <div class="footer_creditos">
+            <a href="https://www.facebook.com/schossler.gabriel" target="_blank" style="margin-right: 5px; color: inherit"><p title="Page Creator's Facebook" style="margin: 0"> Created by WGS </p></a>
+            <a href="https://www.facebook.com/schossler.gabriel" target="_blank"><img title="Page Creator's Facebook" src="sprites/facebook.png"></a>
+        </div>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

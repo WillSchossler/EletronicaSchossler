@@ -1,0 +1,250 @@
+* {xoutline: 1px solid gray}
+* {box-sizing: border-box}
+a {text-decoration: none}
+img {display: block}
+
+body {
+    margin: 2vh 1vw 0 1vw;
+
+    display: grid;
+    grid-template-rows: auto auto auto;
+
+    background-image: url("../sprites/background.png");
+    background-size: cover;
+
+    animation-name: fadeOut;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+header > a {width: 100px; height: 100px}
+
+.pesquisa {position:relative; display: flex; align-items: center}
+.pesquisa button {
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pesquisa input[type=text] {
+    width: 30vw;
+    height: 40px;
+
+    padding: 3px;
+    margin-right: 10px;
+}
+.pesquisa input[type=text]:focus {outline: 1px outset #0083fe}
+.button_icons {width: 30px; height: 30px}
+.pesquisa div {
+    position: absolute;
+    top: 70%;
+    width: 30vw;
+    background-color: white;
+    border: 1px solid #1da1f2;
+    z-index: 1;
+
+}
+.pesquisa div h3 {
+    margin: 0;
+    padding: 5px;
+    transition: background-color 250ms;
+}
+.pesquisa div h3:hover {background-color: lightblue}
+
+.info {
+    grid-gap: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+.info p {
+    margin: 0;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icons {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.icons img {
+    width: 25px;
+    height: 25px
+}
+
+.info_button {
+    color: black;
+    text-align: center;
+    background-color: #4ab3f4;
+
+    border-radius: 10%;
+    border: 2px solid white;
+    padding: 4px;
+}
+.info_button:hover {color: white; background-color: #0083fe}
+
+.info_dados {
+    color: white;
+    text-shadow: 1px 1px black;
+
+    padding: 0 4px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+section {
+    border-radius: 15px;
+    border: 1px outset #0083fe;
+    background-color: white;
+    padding-bottom: 20px;
+    margin: 4vh 1vw 3vh 1vw;
+}
+
+footer {
+    color: #0083fe;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 1px outset #0083fe;
+    background-color: white;
+}
+.footer_creditos {
+    display: flex;
+    align-items: center;
+
+    font-size: 12px;
+}
+.footer_dados {
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_dados p {margin: 0}
+.footer_creditos img {width: 15px; height: 15px}
+
+.fadeOut {
+    animation-name: fadeOut;
+    animation-duration: 1s;
+    animation-timing-function: linear;}
+@keyframes fadeOut {
+    from {opacity: 0}
+    to {opacity: 1}}
+
+.fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease;}
+@keyframes fadeIn {
+    from {transform: scale(0, 0)}
+    to {transform: scale(1, 1)}}
+
+.Stretch {
+    animation-name: Stretch;
+    animation-duration: 1s;
+    animation-timing-function: ease;}
+@keyframes Stretch {
+    from {transform: scale(1, 0)}
+    to {transform: scale(1, 1)}}
+
+@media only screen and (max-width: 768px){
+header {min-height: 150px; flex-wrap: wrap}
+header > a {min-width: 90px; min-height: 90px}
+
+@keyframes Stretch {
+    from {transform: scale(0, 1)}
+    to {transform: scale(1, 1)}}
+
+section {margin: 1vh 1vw 2vh 1vw}
+
+.info {
+    order: 1;
+    display: grid;
+    grid-gap: 5px;
+    font-size: 12px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+.info p {margin: 0; font-weight: 600}
+.icons {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.icons img {width: 20px; height: 20px}
+
+.info_button {
+    color: black;
+    text-align: center;
+    background-color: #4ab3f4;
+
+    padding: 4px;
+    border-radius: 10%;
+    border: 2px solid white;
+}
+.info_button:hover {color: white; background-color: #0083fe}
+.info_dados {
+    color: white;
+    text-shadow: 1px 1px black;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.pesquisa {
+    order: 2;
+    display: flex;
+    align-items: center;
+    margin: 4vh auto 3vh auto;
+}
+.pesquisa button {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pesquisa input[type=text] {
+    width: 80vw;
+    height: 30px;
+
+    padding: 3px;
+    margin-right: 10px;
+}
+.pesquisa input[type=text]:focus {outline: 1px outset #0083fe}
+.button_icons {width: 20px; height: 20px}
+
+.pesquisa div {top: 95%; width: 80vw}
+
+.footer_creditos {
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.footer_creditos img {width: 12px; height: 12px}
+.footer_dados {
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+}
